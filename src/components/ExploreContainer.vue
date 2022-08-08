@@ -1,7 +1,18 @@
 <template>
   <div id="container">
-    <strong>{{ name }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+
+     <ion-text>Disable checkbox issue</ion-text>
+    <ion-item>
+        <ion-label>Apple</ion-label>
+       <ion-checkbox slot="start" color="primary" ></ion-checkbox>
+       
+    </ion-item>
+
+     <ion-item>
+       <ion-label>Windows</ion-label>
+       <ion-checkbox slot="start"  color="primary" disabled="true" ></ion-checkbox>
+       
+    </ion-item>
   </div>
 </template>
 
