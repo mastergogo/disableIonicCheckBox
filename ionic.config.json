@@ -1,0 +1,7 @@
+{
+  "name": "ionicDisableCheckbox",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
